@@ -8,6 +8,7 @@ process sayHello {
   script:
     """
     echo '$x world!'
+exit -1
     """
 }
 
